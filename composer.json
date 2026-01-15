@@ -1,10 +1,5 @@
 {
     "name": "cryodrift/gcss",
-    "authors": [
-        {
-            "name": "chrisg"
-        }
-    ],
     "description": "Css Framework",
     "type": "library",
     "license": "MIT",

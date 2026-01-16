@@ -1,0 +1,103 @@
+/**
+     small screens or large zoom factor
+ */
+@media screen and (max-width: 1080px) {
+    :root, .g-mh > *, .g-md > *, .g-ph > *, .g-pd > * {
+        --r-fs: clamp(2px, 12px, 24px);
+        --r-ff: Arial;
+        --r-fw: 400;
+        --r-br: 3px;
+        --r-bw: 0.5px;
+        --r-p1: 1.5vw;
+        --r-p2: 2vw;
+        --r-p3: 2.5vw;
+        --r-p4: 0;
+        --r-p5: 0;
+        --r-m1: 1vw;
+        --r-m2: 1.5vw;
+        --r-m3: 1vw;
+        --r-m4: 0;
+        --r-m5: 0;
+    }
+}
+
+/**
+     normal screens
+ */
+@media screen and (min-width: 1080px) {
+    :root, .g-mh > *, .g-md > *, .g-ph > *, .g-pd > * {
+        --r-fs: clamp(2px, 12px, 24px);
+        --r-ff: Arial;
+        --r-fw: 400;
+        --r-br: 4px;
+        --r-bw: 1px;
+        --r-p1: 1vw;
+        --r-p2: 1.5vw;
+        --r-p3: 2vw;
+        --r-p4: 5vw;
+        --r-p5: 10vw;
+        --r-m1: 1vw;
+        --r-m2: 1.5vw;
+        --r-m3: 2vw;
+        --r-m4: 5vw;
+        --r-m5: 10vw;
+    }
+}
+
+:root {
+    --r-bg: #373b3e;
+    --r-c: #e3e3e3;
+    --r-b: #777777;
+    --r-bs: #86b7fe;
+    --bg: var(--r-bg);
+    --c: var(--r-c);
+    --bgi: var(--r-c);
+    --ci: var(--r-bg);
+    --b: var(--r-b);
+    --bs: var(--r-bs);
+}
+
+:root, .gl-hh > *, .gs-hh > *, .gl-hd > *, .gs-hd > *, .g-hh > *, .g-hd > * {
+    --r-s1: 10%;
+    --r-s2: 20%;
+    --r-s3: 30%;
+    --r-s4: 40%;
+    --r-s5: 50%;
+    --r-s6: 60%;
+    --r-s7: 70%;
+    --r-s8: 80%;
+    --r-s9: 90%;
+    --r-s: 100%;
+    --p1: var(--r-p1);
+    --p2: var(--r-p2);
+    --p3: var(--r-p3);
+    --p4: var(--r-p4);
+    --p5: var(--r-p5);
+    --m1: var(--r-p1);
+    --m2: var(--r-p2);
+    --m3: var(--r-p3);
+    --m4: var(--r-p4);
+    --m5: var(--r-p5);
+    --s1: var(--r-s1);
+    --s2: var(--r-s2);
+    --s3: var(--r-s3);
+    --s4: var(--r-s4);
+    --s5: var(--r-s5);
+    --s6: var(--r-s6);
+    --s7: var(--r-s7);
+    --s8: var(--r-s8);
+    --s9: var(--r-s9);
+    --s: var(--r-s);
+    --w1: var(--r-s1);
+    --w2: var(--r-s2);
+    --w3: var(--r-s3);
+    --w4: var(--r-s4);
+    --w5: var(--r-s5);
+    --w6: var(--r-s6);
+    --w7: var(--r-s7);
+    --w8: var(--r-s8);
+    --w9: var(--r-s9);
+    --w: var(--r-s);
+    --br: var(--r-br);
+    --bw: var(--r-bw);
+}

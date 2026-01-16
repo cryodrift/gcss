@@ -1,0 +1,4 @@
+/*,(min-resolution: 200dpi)*/
+@media screen and (max-device-width: 1080px), (min-resolution: 200dpi) {
+    /*{{slot}}*/
+}
